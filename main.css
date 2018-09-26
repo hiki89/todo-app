@@ -1,0 +1,136 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 30px;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+#summ {
+    width: 40%;
+}
+
+#status {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    width: 150px;
+}
+
+#select {
+    width: 90%;
+}
+
+#new {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+}
+
+#label_compl {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    float: right;
+}
+
+#completed {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    background-color: white;
+    float: right;
+}
+
+#new_task {
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 50px;
+}
+
+#x {
+    background-color: white;
+    border: none;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#new_task input {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+#new_task label {
+    margin-left: 10px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#save, #update {
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+}
+
+#cancel {
+    float: right;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#compl {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+th button {
+    margin-right: 5px;
+    border: 1px solid black; 
+    float: right;
+    background-color: lightgray;
+}
